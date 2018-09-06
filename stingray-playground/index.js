@@ -76,7 +76,7 @@ function downloadWidgetJs(urlParams) {
 
 function fillForm(urlParams) {
     document.getElementsByName('env')[0].value = urlParams.env;
-    document.getElementsByName('widget-type')[0].value = urlParams.widgetType;
+    document.getElementsByName('widgetType')[0].value = urlParams.widgetType;
     document.getElementsByName('eid')[0].value = urlParams.eid;
     document.getElementsByName('modal')[0].checked = urlParams.modal === 'on';
     document.getElementsByName('affiliateCode')[0].value = urlParams.affiliateCode;
